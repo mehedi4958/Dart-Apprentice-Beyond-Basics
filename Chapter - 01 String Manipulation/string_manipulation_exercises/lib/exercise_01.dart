@@ -1,9 +1,21 @@
 class Exercise01 {
-  List splitIntoSingleLineList(String inputString) {
-    return inputString.split('\n');
+
+  void splitIntoSingleLineList() {
+    const countriesString = '''
+France
+USA
+Germany
+Benin
+China
+Mexico
+Mongolia''';
+    var outputList = countriesString.split('\n');
+    print('\tExercise - 01: \n$outputList');
   }
 
-  String replaceWithEmoji(String string) {
-    return string.replaceAll(':]', '😊');
+  void replaceWithEmoji() {
+    const string = '''How's the Dart book going? :]''';
+    String replacedString = string.replaceAll(':]', '😊');
+    print(replacedString);
   }
 }
