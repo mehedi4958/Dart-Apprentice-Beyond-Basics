@@ -1,5 +1,6 @@
 import 'package:string_manipulation_exercises/exercise_01.dart';
 import 'package:string_manipulation_exercises/exercise_02.dart';
+import 'package:string_manipulation_exercises/exercise_03.dart';
 
 void main() {
   print('Chapter - 01:');
@@ -9,6 +10,9 @@ void main() {
   exercise01Object.splitIntoSingleLineList();
   exercise01Object.replaceWithEmoji();
 
-  /// Exercise -2
+  /// Exercise - 2
   Exercise02().printStar();
+
+  /// Exercise - 3
+  Exercise03().validateCreditCard();
 }
